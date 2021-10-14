@@ -19,7 +19,7 @@ function App() {
             <div className="container">
                 <div className="row h2 p-1">Appetizers</div>
                 <hr></hr>
-                <div className="row row-cols-3 display-flex justify-content-center">
+                <div className="row row-cols-md-3 row-cols-xs-1">
                     <MenuItem
                         url="https://port-3000-aincbootcampapi-ianrios529550.codeanyapp.com/api/menu/type_amount/4/1"
                         value={10}
@@ -40,7 +40,7 @@ function App() {
             <div className="container">
                 <div className="row h2 p-1">Entrees</div>
                 <hr></hr>
-                <div className="row row-cols-3 display-flex justify-content-center">
+                <div className="row row-cols-md-3 row-cols-xs-1">
                     <MenuItem
                         url="https://port-3000-aincbootcampapi-ianrios529550.codeanyapp.com/api/menu/type_amount/5/1"
                         value={25}
@@ -91,7 +91,7 @@ function App() {
             <div className="container">
                 <div className="row h2">Desserts</div>
                 <hr></hr>
-                <div className="row row-cols-3 display-flex justify-content-center">
+                <div className="row row-cols-md-3 row-cols-xs-1">
                     <MenuItem
                         url="https://port-3000-aincbootcampapi-ianrios529550.codeanyapp.com/api/menu/type_amount/7/1"
                         value={8}

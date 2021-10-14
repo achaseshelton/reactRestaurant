@@ -31,7 +31,7 @@ class MenuItem extends React.Component {
 
     render() {
         return (
-            <div className="col mt-2 mb-2">
+            <div className="col-md-4 col-xs-12 mt-2 mb-2">
                 <div className="card h-100">
                     <img src={this.props.src} className="card-img-top image-fluid mx-auto p-3" alt="food item" />
                     <div className="card-body">
