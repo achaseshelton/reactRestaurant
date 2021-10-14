@@ -13,7 +13,7 @@ class MenuItem extends React.Component {
     }
 
     getRandomInt(max) {
-        return Math.floor(Math.random() * max) + 3.98;
+        return Math.ceil(Math.random() * max) + 3.98;
     }
 
     apiCall() {
@@ -33,7 +33,7 @@ class MenuItem extends React.Component {
         return (
             <div className="col mt-2 mb-2">
                 <div className="card h-100">
-                    <img src={this.props.src} className="card-img-top h-50 w-50 mx-auto p-3" alt="food item" />
+                    <img src={this.props.src} className="card-img-top image-fluid mx-auto p-3" alt="food item" />
                     <div className="card-body">
                         <h5 className="card-title">{this.state.data.name}</h5>
                         <p className="card-text">{this.state.data.description}</p>
