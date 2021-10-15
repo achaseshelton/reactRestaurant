@@ -7,7 +7,7 @@ function App() {
         <div className="container">
             <header className="container text-center">
                 <div className="row">
-                    <h1>Winespring Tavern</h1>
+                    <h1><strong>Winespring Tavern</strong></h1>
                 </div>
                 <div className="row">
                     <h3>348 E Main St, Lexington, KY</h3>
